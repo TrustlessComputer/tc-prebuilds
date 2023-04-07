@@ -27,6 +27,7 @@ services:
     container_name: "trustless_node_public"
     command: [
       "/app/tc",
+      "-g",
       "-u", "${BITCOIND_RPC_USERNAME}",
       "-p", "${BITCOIND_RPC_PASSWORD}",
       "-e", "${BITCOIND_RPC_ENDPOINT}",
