@@ -37,6 +37,8 @@ services:
       - ./tc-node-data:/app/tcdata
     ports:
       - 11002:10002
+    env_file:
+      - tc-node.env
 ```
 
 with env
