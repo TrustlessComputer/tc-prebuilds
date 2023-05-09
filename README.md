@@ -41,7 +41,7 @@ services:
       - tc-node.env
 ```
 
-with env
+with env file `tc-node.env`
 ```dotenv
 BITCOIND_RPC_USERNAME=trustless
 BITCOIND_RPC_PASSWORD=notrespassing
